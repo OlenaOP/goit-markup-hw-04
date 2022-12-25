@@ -57,6 +57,11 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 body {
   background-color: var(--bacground-color);
   color: var(--dark-color);
@@ -89,8 +94,6 @@ body {
 
 /* -----------------HEADER----------------------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--accent-color);
 }
 
@@ -112,6 +115,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.header-navigation .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-logo {
   color: var(--primary-brand-color);
 }
@@ -134,6 +143,8 @@ body {
   letter-spacing: 0.02em;
   /* NAVY BLUE */
   color: var(--dark-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -150,6 +161,8 @@ body {
   letter-spacing: 0.02em;
   /* SLATE */
   color: var(--text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contact:hover,
@@ -186,7 +199,6 @@ body {
   color: var(--invert-color);
   margin: 0 auto;
   width: 496px;
-  height: 120px;
   margin-bottom: 48px;
 }
 
@@ -222,7 +234,7 @@ body {
 /* ------------------Advantages section---------------- */
 .advantages {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 
 .advantages-list {
@@ -253,9 +265,7 @@ body {
 }
 
 /* ------------------What are we doing section---------------- */
-.do {
-  padding-bottom: 120px;
-}
+
 .section-header {
   /* Header 2 */
   font-family: inherit;
@@ -275,8 +285,6 @@ body {
 /* ------------------Our Team section---------------- */
 .team-section {
   background-color: var(--light-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-list {
   display: flex;
@@ -284,6 +292,9 @@ body {
 }
 .team-item {
   background-color: var(--background-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-header {
@@ -374,15 +385,17 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: 1px solid var(--pressed-state-color);
 }
 
-.portfolio-btn-active {
+/* .portfolio-btn-active {
   background-color: var(--pressed-state-color);
   color: var(--invert-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+  border: 1px solid var(--pressed-state-color);
+} */
 
 /* -----------------Portfolio projects-------------- */
 
