@@ -252,8 +252,7 @@ body {
   gap: 24px;
 }
 .advantages-image {
-  width: 264px;
-  height: 112px;
+  padding: 24px 100px;
   background: var(--light-color);
   border-radius: 4px;
   justify-content: center;
@@ -350,12 +349,11 @@ body {
   gap: 24px;
 }
 .team-soc-item {
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
 }
 .team-soc-link {
-  width: 100%;
-  height: 100%;
+  padding: 12px;
   border-radius: 50%;
   background-color: var(--primary-brand-color);
   display: flex;
@@ -378,18 +376,23 @@ body {
 /* .customers-item {
 } */
 .customers-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--subtitel-text);
 }
 .customers-icon {
   fill: var(--subtitel-text);
-  border-radius: 4px;
-  border: 1px solid var(--subtitel-text);
-  padding: 16px 32px;
+
+  /*   
   width: 168px;
-  height: 88px;
+  height: 88px; */
 }
+.customers-link:hover,
+.customers-link:focus,
+.customers-link:active,
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon,
 .customers-link:active .customers-icon {
@@ -440,12 +443,11 @@ body {
   gap: 16px;
 }
 .footer-section-item {
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
 }
 .footer-section-link {
-  width: 100%;
-  height: 100%;
+  padding: 8px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
