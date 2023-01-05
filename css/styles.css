@@ -12,7 +12,7 @@
   --background-color: #fff;
   --logo-black-color: #000;
   --font-family: "Roboto", sans-serif;
-  --logo-font-family: "Realway", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
 }
 
 p,
@@ -63,7 +63,7 @@ img {
 }
 
 body {
-  background-color: var(--bacground-color);
+  background-color: var(--background-color);
   color: var(--dark-color);
   font-family: var(--font-family, sans-serif);
   font-weight: 400;
